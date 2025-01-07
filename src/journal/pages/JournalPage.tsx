@@ -1,9 +1,18 @@
 import { Typography } from '@mui/material';
+import { JournalLayout } from '../layout/JournalLayout';
+
+// const drawerWidth = 240;
 
 export const JournalPage = () => {
   return (
     <>
-      <Typography>JournalPage</Typography>
+      <JournalLayout>
+        <Typography>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sapiente,
+          aliquam enim quia qui odio fugit nam ea vero alias facilis odit
+          pariatur voluptates, voluptatum id, doloribus sint quas aspernatur.
+        </Typography>
+      </JournalLayout>
     </>
   );
 };
